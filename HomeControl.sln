@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeControlOld", "HomeContr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeController", "HomeController\HomeController.csproj", "{3D13809E-E13A-40C1-8B7A-51F27C794C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeControl", "HomeControl\HomeControl.csproj", "{2F805140-39A5-4ABA-BE89-E720F9B1A654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeControl", "HomeControl\HomeControl.csproj", "{2F805140-39A5-4ABA-BE89-E720F9B1A654}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{80D3E73E-5DBA-4F7B-9C2F-A35637A7BD85}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\Arduino\HomeControl\HomeBoiler\HomeBoiler.ino = ..\..\..\Documents\Arduino\HomeControl\HomeBoiler\HomeBoiler.ino
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
