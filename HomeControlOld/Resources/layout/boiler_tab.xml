@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/boiler_title"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+    <TextView
+        android:id="@+id/boiler_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/boiler_temp_marginTop"
+        android:text="@string/boiler_temp"
+        android:textSize="@dimen/abc_action_bar_content_inset_with_nav"/>
+
+    <TextView
+        android:id="@+id/boiler_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boiler_temp"
+        android:text="@string/boiler_status"
+        android:layout_marginLeft="@dimen/boiler_status_margin"
+        android:textSize="@dimen/boiler_status_size"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/boiler_button"
+        android:text="@string/boiler_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/navigation"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/button_textsize"/>
+
+    <CheckBox
+        android:id="@+id/boiler_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/boiler_button"
+        android:layout_alignBaseline="@id/boiler_button"
+        android:text="@string/boiler_checkbox"
+        android:textColor="@color/colorText"
+        android:buttonTint="@color/colorTheme"
+        android:textSize="@dimen/boiler_checkbox_textsize"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_size"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation"
+        app:itemIconTint="@color/colorTheme"
+        app:itemTextColor="@color/colorTheme"
+        android:background="@color/colorBackground" />
+</RelativeLayout>

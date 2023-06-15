@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeControl</string>
+    <string name="title_tür">Tür</string>
+	<string name="title_boiler">Boiler</string>
+	
+	<!--Boiler Tab-->
+	<string name="boiler_title">Boiler</string>
+	<string name="boiler_button">Einschalten</string>
+	<string name="boiler_checkbox">Auto</string>
+	<string name="boiler_temp">0°C</string>
+	<string name="boiler_status">Ausgeschaltet</string>
+
+	<!--Tür Tab-->
+	<string name="tür_title">Tür</string>
+	<string name="tür_button">Öffnen</string>
+	
+</resources>
